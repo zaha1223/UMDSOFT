@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header class="site-header">
         <div class="container">
           <div class="header">
             <a href="./index.html" class="header__logo-link">
@@ -41,11 +41,23 @@
               <a href="tel:+99895 888 35 37" class="navbar__tel">
                 +99895 <span class="tel-color">888 35 37</span>
               </a>
-              <a href="#" class="navbar__lng-link">RU</a>
+              <button type="button" class="navbar__btn">
+                <img
+                  class="navbar__img-btn"
+                  src="./imgs/language-i.svg"
+                  alt=""
+                />RU
+              </button>
+              <img
+                src="./imgs/hamburger-img.svg"
+                alt=""
+                class="hamburger-btn"
+              />
             </nav>
           </div>
         </div>
       </header>
+      <h1 class="visually-hidden">smdmk</h1>
       <main>
         <section class="hero-section">
           <div class="container">
@@ -54,16 +66,176 @@
                 Biznesingiz uchun raqamli yechimlarni taklif qilamiz
               </h2>
               <p class="hero__text">HAR QANDAY MURAKKABLIKDAGI</p>
-              <a href="#" class="hero__page-link">Portfolioni ko’rish</a>
-              <a href="tel:+99895 888 35 37" class="hero__tel-link">
-                Qo’ng’iroq
-              </a>
+              <div class="hero__links">
+                <a href="#" class="hero__links-page">
+                  Portfolioni korish
+                  <img
+                    class="hero__page-img"
+                    src="./imgs/page-link-img.svg"
+                    alt=""
+                  />
+                </a>
+                <a href="tel:+99895 888 35 37" class="hero__links-tel">
+                  Qo’ng’iroq
+                  <img
+                    src="./imgs/hero-links-tel.svg"
+                    alt="tel"
+                    class="hero__links-tel-img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="statistics-section">
+          <div class="container">
+            <div class="statistics">
+              <ul class="statistics__list">
+                <li class="statistics__item">
+                  <span class="statistics__number">10+</span>
+                  <p class="statistics__text">Yakunlangan loyihalar</p>
+                </li>
+                <li class="statistics__item">
+                  <span class="statistics__number">12+</span>
+                  <p class="statistics__text">Soha mutaxassislari</p>
+                </li>
+                <li class="statistics__item">
+                  <span class="statistics__number">15+</span>
+                  <p class="statistics__text">hamkorlik</p>
+                </li>
+                <li class="statistics__item">
+                  <span class="statistics__number">6+</span>
+                  <p class="statistics__text">xizmat turlari</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="services-section">
+          <div class="container">
+            <div class="services">
+              <div class="services__info">
+                <h3 class="services__info-title">
+                  <small class="services__info-sml">BIZNING</small>
+                  <span class="services__info-line"></span> <br />
+                  Xizmatlarimiz
+                </h3>
+              </div>
+              <ul class="services__list">
+                <li class="services__list-item">
+                  <img
+                    class="services__img"
+                    src="./imgs/web-side.svg"
+                    alt="web-side-i"
+                  />
+                  <h4 class="services__subtitle">Veb-saytlar</h4>
+                  <p class="services__text">
+                    Korporativ veb saytlardan tortib veb ilovalargacha boʻlgan
+                    murakkablikdagi internet saytlarni sifat kafolati bilan
+                    ishlab chiqaramiz
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    class="services__img"
+                    src="./imgs//ux-dizayn.svg"
+                    alt="web-side-i"
+                  />
+                  <h4 class="services__subtitle">Ui/Ux dizayn</h4>
+                  <p class="services__text">
+                    Loyiha MindMapʼini ishlab chiqish va ushbu arxitektura
+                    asosida optimal yechimga ega dizaynlarni chizish
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    class="services__img"
+                    src="./imgs/crm.svg"
+                    alt="web-side-i"
+                  />
+                  <h4 class="services__subtitle">CRM tizimlar</h4>
+                  <p class="services__text">
+                    Biznesni va jarayonlarni avtomatlashtirish, kanselyariya
+                    ishlarini 100% gacha kamaytiruvchi boshqaruv elektron
+                    tizimlarini ishlab chiqish
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    class="services__img"
+                    src="./imgs/mobile-apps.svg"
+                    alt="web-side-i"
+                  />
+                  <h4 class="services__subtitle">Mobile ilovalar</h4>
+                  <p class="services__text">
+                    Istalgan qiyinchilikdagi mobil ilovalarni ishlab chiqish va
+                    ularni texnik qoʻllab-quvvatlash.
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    class="services__img"
+                    src="./imgs/logo-brending.svg"
+                    alt="web-side-i"
+                  />
+                  <h4 class="services__subtitle">Logo branding</h4>
+                  <p class="services__text">
+                    Loyihangiz uchun yagona va oʻziga xos boʻlgan logotipni
+                    ishlab chiqish va uni brending qoidalarini ham yaratib
+                    berish
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    class="services__img"
+                    src="./imgs//marketing.svg"
+                    alt="web-side-i"
+                  />
+                  <h4 class="services__subtitle">Marketing</h4>
+                  <p class="services__text">
+                    Biznesni rivojlantirish uni ommaga tanitish, mijozlar bilan
+                    aloqalarni yaxshilash va uni ko’paytirishga yordam beramiz
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <img
+                    class="services__img"
+                    src="./imgs/tg-bot.svg"
+                    alt="web-side-i"
+                  />
+                  <h4 class="services__subtitle">Telegram bot</h4>
+                  <p class="services__text">
+                    Loyihangiz uchun foydali va mijozlaringizga qulay bo’lgan
+                    botlarni taqdim etamiz
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </section>
       </main>
     </div>
     <footer></footer>
+    <div class="modal">
+      <img src="./imgs/modal-del.svg" alt="" class="modal__del" />
+      <ul class="modal__list">
+        <li class="modal__item">
+          <a href="" class="modal__link">Kompaniya</a>
+        </li>
+        <li class="modal__item">
+          <a href="" class="modal__link">Xizmatlar</a>
+        </li>
+        <li class="modal__item">
+          <a href="" class="modal__link">Portfolio</a>
+        </li>
+        <li class="modal__item">
+          <a href="" class="modal__link">Hamkorlar</a>
+        </li>
+        <li class="modal__item">
+          <a href="" class="modal__link">Biz bilan aloqa</a>
+        </li>
+      </ul>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -1,8 +1,10 @@
-const modal = document.querySelector(".navbar__list2");
-const body = document.querySelector("body");
-const btn = document.querySelector(".nav__btn");
+var elBtn = document.querySelector(".hamburger-btn");
+var elModal = document.querySelector(".modal");
+var elDel = document.querySelector(".modal__del");
 
-btn.addEventListener("click", () => {
-  modal.classList.toggle("open");
-  body.classList.toggle("overflow");
+elBtn.addEventListener("click", function () {
+  elModal.classList.toggle("open");
+});
+elDel.addEventListener("click", function () {
+  elModal.classList.remove("open");
 });

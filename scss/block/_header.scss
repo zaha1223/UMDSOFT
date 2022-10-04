@@ -1,7 +1,10 @@
+.site-header {
+  border-bottom: 1px solid rgba(25, 28, 47, 0.4);
+}
+
 .header {
   @include flex;
   padding: 25px 0;
-  margin-bottom: 53px;
   &__logo-img {
     width: 164px;
     height: 35px;
@@ -40,17 +43,59 @@
     color: rgba(25, 28, 47, 0.7);
     margin-right: 35px;
   }
-  &__lng-link {
-    padding: 10px 15px;
+  &__btn {
+    padding: 10px 15px 10px 17px;
+    border: none;
     border: 0.8px solid rgba(25, 28, 47, 0.4);
     border-radius: 8px;
+    background-color: transparent;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  &__img-btn {
+    margin-right: 8px;
   }
 }
 .tel-color {
   color: #191c2f;
 }
-@media screen and (max-width: 1320px) {
+.hamburger-btn {
+  display: none;
+}
+@media screen and (max-width: 1349px) {
+  .navbar__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .navbar__tel {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1213px) {
+  .navbar__list {
+    display: none;
+  }
   .header {
     justify-content: space-between;
+  }
+  .navbar__tel {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .hamburger-btn {
+    display: block;
+    margin-left: 37px;
+  }
+  .open {
+    display: block;
+    transition: all 0.4s ease;
+  }
+}
+@media screen and (max-width: 669px) {
+  .navbar__tel {
+    display: none;
+  }
+  .navbar__btn {
+    display: none;
   }
 }

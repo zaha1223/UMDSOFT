@@ -1,0 +1,65 @@
+.statistics-section {
+}
+.container {
+}
+.statistics {
+  margin-bottom: 116px;
+}
+.statistics__list {
+  @include flex;
+  padding: 0 40px;
+  justify-content: space-between;
+}
+.statistics__item {
+  width: 204px;
+  height: 116px;
+  text-align: center;
+}
+.statistics__number {
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 97px;
+  color: $maincolor;
+}
+.statistics__text {
+  font-size: 20px;
+  line-height: 24px;
+  color: $maincolor;
+}
+@media screen and (max-width: 960px) {
+  .statistics__item + .statistics__item {
+    margin-left: 78px;
+  }
+  .statistics__number {
+    font-size: 68px;
+    line-height: 84px;
+  }
+  .statistics__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 795px) {
+  .statistics {
+    margin-bottom: 0;
+  }
+  .statistics__list {
+    flex-direction: column;
+  }
+  .statistics__item + .statistics__item {
+    margin-left: 0;
+  }
+  .statistics__item {
+    width: 244px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .statistics__number {
+    font-size: 98px;
+    line-height: 121px;
+  }
+  .statistics__text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
