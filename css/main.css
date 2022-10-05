@@ -632,6 +632,34 @@ body {
   }
 }
 
+.company {
+  margin-bottom: 90px;
+}
+
+.company__info {
+  padding-left: 12px;
+}
+
+.company__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #37474f;
+}
+
+.company__line {
+  width: 35px;
+  height: 3px;
+  background-color: #191c2f;
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.company__text-box {
+
+
 .portfolio__info {
   position: relative;
 }
@@ -716,12 +744,35 @@ body {
 
 .team__list {
   max-width: 1170px;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+
+  margin-bottom: 5px;
+}
+
+.company__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  color: #191c2f;
+  margin-bottom: 40px;
+}
+
+.company__list {
+  display: grid;
+  grid-template-columns: repeat(5, 246px);
+  -webkit-column-gap: 22px;
+     -moz-column-gap: 22px;
+          column-gap: 22px;
+}
+
   margin: 0 auto;
 }
 
@@ -775,3 +826,4 @@ body {
   margin: 0 auto;
 
 }
+
