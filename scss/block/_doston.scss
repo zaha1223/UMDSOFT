@@ -1,0 +1,72 @@
+.doston {
+  margin-bottom: 146px;
+}
+
+.doston__wrapper {
+  width: 100%;
+  max-width: 1320px;
+}
+
+.doston__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.doston__list {
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.doston__item {
+  max-width: 270px;
+  height: 362px;
+  background: #f3f3f3;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.doston__item {
+  margin-left: 37px;
+}
+
+.doston__item:nth-child(1) {
+  margin-left: 0;
+}
+
+.doston__img2 {
+  margin-top: 30px;
+  max-width: 211px;
+}
+
+.doston__strong {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #dfbb7f;
+}
+
+.doston__strong2 {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #dfbb7f;
+}
+
+.doston__text {
+  max-width: 186px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #202020;
+  margin: 0 auto;
+}
