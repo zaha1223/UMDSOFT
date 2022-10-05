@@ -2,12 +2,12 @@
   margin-bottom: 146px;
 }
 
-.doston__wrapper {
+.team {
   width: 100%;
   max-width: 1320px;
 }
 
-.doston__title {
+.team__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
@@ -15,14 +15,14 @@
   margin-bottom: 37px;
 }
 
-.doston__list {
+.team__list {
   max-width: 1170px;
   display: flex;
   align-items: center;
   margin: 0 auto;
 }
 
-.doston__item {
+.team__item {
   max-width: 270px;
   height: 362px;
   background: #f3f3f3;
@@ -32,20 +32,20 @@
   padding-bottom: 15px;
 }
 
-.doston__item {
+.team__item {
   margin-left: 37px;
 }
 
-.doston__item:nth-child(1) {
+.team__item:nth-child(1) {
   margin-left: 0;
 }
 
-.doston__img2 {
+.team__img2 {
   margin-top: 30px;
   max-width: 211px;
 }
 
-.doston__strong {
+.team__strong {
   display: inline-block;
   font-weight: 500;
   font-size: 20px;
@@ -53,7 +53,7 @@
   color: #dfbb7f;
 }
 
-.doston__strong2 {
+.team__strong2 {
   display: inline-block;
   font-weight: 500;
   font-size: 20px;
@@ -61,7 +61,7 @@
   color: #dfbb7f;
 }
 
-.doston__text {
+.team__text {
   max-width: 186px;
   font-weight: normal;
   font-size: 16px;
