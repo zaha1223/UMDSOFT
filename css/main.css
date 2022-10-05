@@ -630,4 +630,69 @@ body {
   .services__list {
     grid-template-columns: repeat(1, 374px);
   }
+}
+.portfolio__info {
+  position: relative;
+}
+
+.portfolio__info-title-sml {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #23049d;
+  margin-bottom: 5px;
+}
+
+.portfoli__info-line {
+  width: 35px;
+  height: 3px;
+  display: inline-block;
+  background-color: #37474f;
+}
+
+.porfolio__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  color: #191c2f;
+}
+
+.porfolio__links {
+  position: absolute;
+  top: 42px;
+  left: 576px;
+}
+
+.page-links {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.page-links__mobile {
+  padding: 15px 27px;
+  border: 1px solid #191c2f;
+  border-radius: 10px;
+  color: #191c2f;
+}
+
+.page-links__web-site {
+  padding: 15px 27px;
+  border: 1px solid #191c2f;
+  border-radius: 10px;
+  color: #191c2f;
+}
+
+.page-links__brend {
+  padding: 15px 27px;
+  border: 1px solid #191c2f;
+  border-radius: 10px;
+  color: #191c2f;
+}
+
+.page-links__marketing {
+  padding: 15px 27px;
+  border: 1px solid #191c2f;
+  border-radius: 10px;
+  color: #191c2f;
 }/*# sourceMappingURL=main.css.map */
