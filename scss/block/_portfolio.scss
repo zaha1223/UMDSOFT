@@ -1,5 +1,3 @@
-.portfolio {
-}
 .portfolio__content {
   @include flex;
 }
@@ -25,8 +23,7 @@
   line-height: 62px;
   color: $maincolor;
 }
-.porfolio__links {
-}
+
 .page-links-list {
   @include flex;
   margin-top: 10px;
@@ -48,13 +45,4 @@
 .page-links__link {
   display: inline-block;
   color: $maincolor;
-}
-
-.portfolio__scelate {
-}
-.scelate {
-}
-.scelate__list {
-}
-.scelate__item {
 }
