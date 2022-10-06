@@ -1,7 +1,9 @@
+
 .portfolio__content {
   @include flex;
   margin-bottom: 40px;
 }
+
 .portfolio__info {
   margin-right: 351px;
 }
@@ -54,6 +56,7 @@
   grid-template-rows: repeat(2, 247px);
   gap: 20px;
 }
+
 .scelate__item {
   height: 247px;
   background: #d9d9d9;
@@ -80,3 +83,4 @@
   top: 12px;
   margin-left: 20px;
 }
+
