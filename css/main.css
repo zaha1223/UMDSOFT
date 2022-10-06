@@ -760,6 +760,7 @@ body {
 }
 
 .scelate__link-img {
+  width: auto;
   position: absolute;
   top: 12px;
   margin-left: 20px;
