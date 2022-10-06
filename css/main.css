@@ -660,7 +660,7 @@ body {
   background-color: #37474f;
 }
 
-.porfolio__title {
+.portfolio__title {
   font-weight: 700;
   font-size: 50px;
   line-height: 62px;
@@ -674,19 +674,27 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .page-links__item {
   width: 180px;
   height: 50px;
-  padding: 15px 20px;
+  padding: 15px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   border: 1px solid #191c2f;
   border-radius: 10px;
   color: #191c2f;
+}
+
+.page-links__item:hover {
+  background-color: #dfbb7f;
+}
+
+.page-links__item:active {
+  opacity: 0.5;
 }
 
 .page-links__item:not(:last-child) {
@@ -696,6 +704,10 @@ body {
 .page-links__link {
   display: inline-block;
   color: #191c2f;
+}
+
+.scelate {
+  margin-bottom: 120px;
 }
 
 .scelate__list {
@@ -735,6 +747,69 @@ body {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 990px) {
+  .portfolio__content {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .portfolio__info {
+    margin-right: 0;
+  }
+  .portfolio__info-title-sml {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .portfolio__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .page-links-list {
+    margin-top: 40px;
+  }
+  .scelate {
+    margin-bottom: 90px;
+  }
+  .scelate__list {
+    grid-template-columns: repeat(2, 387px);
+  }
+  .item1 {
+    width: 794px;
+  }
+  .scelate__link {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .portfolio__info {
+    margin-bottom: 40px;
+  }
+  .page-links-list {
+    display: none;
+  }
+  .scelate__list {
+    grid-template-columns: repeat(1, 374px);
+    grid-template-rows: repeat(4, 300px);
+    gap: 10px;
+  }
+  .scelate__item {
+    height: inherit;
+  }
+  .scelate__item:nth-child(1) {
+    display: none;
+  }
+  .scelate__item:nth-child(2) {
+    display: none;
+  }
+  .scelate__item:nth-child(3) {
+    display: none;
+  }
+  .scelate__item:nth-child(4) {
+    display: none;
+  }
+  .item1 {
+    display: none;
+  }
+}
 .doston {
   margin-bottom: 146px;
 }
