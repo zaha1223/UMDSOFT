@@ -905,7 +905,7 @@ body {
   .company__list {
     grid-template-columns: repeat(2, 177px);
     grid-template-rows: repeat(7, 112px);
-    row-gap: 43px;
+    gap: 80px;
   }
 }
 .doston {
@@ -959,7 +959,20 @@ body {
   margin-left: 0;
 }
 
+.team__img2 {
+  margin-top: 30px;
+  max-width: 211px;
+}
+
 .team__strong {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #dfbb7f;
+}
+
+.team__strong2 {
   display: inline-block;
   font-weight: 500;
   font-size: 20px;
