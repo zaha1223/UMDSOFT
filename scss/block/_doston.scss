@@ -32,6 +32,10 @@
   padding-bottom: 15px;
 }
 
+.team__item2 {
+  display: none;
+}
+
 .team__item {
   margin-left: 37px;
 }
@@ -40,20 +44,7 @@
   margin-left: 0;
 }
 
-.team__img2 {
-  margin-top: 30px;
-  max-width: 211px;
-}
-
 .team__strong {
-  display: inline-block;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #dfbb7f;
-}
-
-.team__strong2 {
   display: inline-block;
   font-weight: 500;
   font-size: 20px;
@@ -69,4 +60,110 @@
   text-align: center;
   color: #202020;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 990px) {
+  .team {
+    width: 100%;
+    max-width: 794px;
+  }
+
+  .team__title {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 2px;
+  }
+
+  .team__list {
+    max-width: 794px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .team__item {
+    max-width: 184px;
+    height: 351px;
+    background: #f3f3f3;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .team__item {
+    margin-left: 19px;
+  }
+
+  .team__img {
+    max-width: 184px;
+    height: 238px;
+    margin-bottom: 11px;
+  }
+
+  .team__strong {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .team__text {
+    max-width: 163px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #202020;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .doston {
+    margin-bottom: 42px;
+  }
+
+  .team {
+    width: 100%;
+    max-width: 374px;
+  }
+
+  .team__title {
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 56px;
+  }
+
+  .team__list {
+    width: 374px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .team__item {
+    max-width: 177px;
+    height: 351px;
+    background: #f3f3f3;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 12px;
+  }
+
+  .team__item:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .team__strong {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .team__text {
+    max-width: 163px;
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
