@@ -1,14 +1,20 @@
+
+.portfolio__content {
+  @include flex;
+  margin-bottom: 40px;
+}
+
 .portfolio__info {
-  position: relative;
+  margin-right: 351px;
 }
 .portfolio__info-title-sml {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   color: #23049d;
   margin-bottom: 5px;
 }
-.portfoli__info-line {
+.portfolio__info-line {
   width: 35px;
   height: 3px;
   display: inline-block;
@@ -20,37 +26,61 @@
   line-height: 62px;
   color: $maincolor;
 }
-.porfolio__links {
-  position: absolute;
-  top: 42px;
-  left: 576px;
+
+.page-links-list {
+  @include flex;
+  margin-top: 10px;
 }
-.page-links {
+.page-links__item {
+  width: 180px;
+  height: 50px;
+  padding: 15px 20px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-}
-.page-links__mobile {
-  padding: 15px 27px;
   border: 1px solid #191c2f;
   border-radius: 10px;
   color: $maincolor;
 }
-.page-links__web-site {
-  padding: 15px 27px;
-  border: 1px solid #191c2f;
-  border-radius: 10px;
+.page-links__item:not(:last-child) {
+  margin-right: 15px;
+}
+.page-links__link {
+  display: inline-block;
   color: $maincolor;
 }
-.page-links__brend {
-  padding: 15px 27px;
-  border: 1px solid #191c2f;
-  border-radius: 10px;
-  color: $maincolor;
+
+.scelate__list {
+  display: grid;
+  grid-template-columns: repeat(4, 315px);
+  grid-template-rows: repeat(2, 247px);
+  gap: 20px;
 }
-.page-links__marketing {
-  padding: 15px 27px;
-  border: 1px solid #191c2f;
+
+.scelate__item {
+  height: 247px;
+  background: #d9d9d9;
   border-radius: 10px;
-  color: $maincolor;
 }
+.item1 {
+  width: 650px;
+  height: 518px;
+  display: inline-block;
+}
+.scelate__link {
+  width: 156px;
+  height: 45px;
+  display: inline-block;
+  margin: 60px 0 0 580px;
+  padding: 15px 27px;
+  background: #dfbb7f;
+  border-radius: 8px;
+  color: $white;
+  position: relative;
+}
+.scelate__link-img {
+  position: absolute;
+  top: 12px;
+  margin-left: 20px;
+}
+
