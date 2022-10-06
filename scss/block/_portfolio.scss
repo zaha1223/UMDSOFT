@@ -1,8 +1,9 @@
 .portfolio__content {
   @include flex;
+  margin-bottom: 40px;
 }
 .portfolio__info {
-  margin-right: 416px;
+  margin-right: 351px;
 }
 .portfolio__info-title-sml {
   font-weight: 500;
@@ -45,4 +46,38 @@
 .page-links__link {
   display: inline-block;
   color: $maincolor;
+}
+.scelate {
+}
+.scelate__list {
+  display: grid;
+  grid-template-columns: repeat(4, 315px);
+  grid-template-rows: repeat(2, 247px);
+  gap: 20px;
+}
+.scelate__item {
+  height: 247px;
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+.item1 {
+  width: 650px;
+  height: 518px;
+  display: inline-block;
+}
+.scelate__link {
+  width: 156px;
+  height: 45px;
+  display: inline-block;
+  margin: 60px 0 0 580px;
+  padding: 15px 27px;
+  background: #dfbb7f;
+  border-radius: 8px;
+  color: $white;
+  position: relative;
+}
+.scelate__link-img {
+  position: absolute;
+  top: 12px;
+  margin-left: 20px;
 }
